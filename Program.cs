@@ -16,7 +16,7 @@ namespace cmdsender
         static void Main(string[] args)
         {
             XmlDocument doc_users = new XmlDocument();
-            doc_users.Load("c:\\users\\andrey\\source\\repos\\ServerMem\\ServerMem\\users.xml");
+            doc_users.Load("users.xml");
             int users_c;
             users_c = 0;
             string[] users = new string[50];
